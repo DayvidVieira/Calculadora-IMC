@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:text="Calculador IMC"
+            android:text="IBM Calculator"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -36,7 +36,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:text="Preencha todos os campos para calcular seu IMC "
+            android:layout_margin="20dp"
+            android:text="Fill in all the fields to calculate your BMI "
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -62,7 +63,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_bg"
             android:drawableEnd="@drawable/ic_monitor_wheight"
-            android:hint="Digite seu peso ex: 70.200"
+            android:hint="Enter your weight e.g. 70.200"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,7 +84,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_bg"
             android:inputType="numberDecimal"
-            android:hint="Digite sua altura ex: 1.70" />
+            android:hint="Enter your height e.g. 1.70" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -91,7 +92,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Calcular"
+        android:text="calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

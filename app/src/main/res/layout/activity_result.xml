@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:text="Calculador IMC"
+            android:text="IBM calculator"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:text="confirme abaixo o seu resultado e classificação: "
+            android:text="check your result and ranking below: "
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -58,7 +58,7 @@
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A classificação do seu imc é: " />
+        android:text="Your BMI classification is: " />
 
     <TextView
         android:id="@+id/tv_classificacao"
@@ -68,7 +68,15 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         tools:text="Normal" />
+
+    <TextView
+        android:id="@+id/tv_classificacao_label"
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_margin="70dp"
+        android:text="A person is considered obese when their Body Mass Index (BMI) is greater than or equal to 30 kg/m2 and the normal weight range is between 18.5 and 24.9 kg/m2. Individuals who have a BMI between 25 and 29.9 kg/m2 are diagnosed as overweight and may already be suffering from excess fat. " />
 </LinearLayout>
+
 
 
 
